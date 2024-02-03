@@ -1,0 +1,22 @@
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 200px; /* Maksimum genişlik belirleyerek kartları küçültebilirsiniz */
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-details {
+  padding: 10px;
+}
+
+* {
+  color: black;
+}

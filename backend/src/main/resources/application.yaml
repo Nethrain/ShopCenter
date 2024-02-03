@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: test
+
+default:
+  sender: noreply@webdev.com
+  recipient: noreply@webdev.com
+
+jwt:
+  secret: 790a0ddb9e92fc6b031ac0dc5c3f38715cb3008f
+  expiration_time: 60000
+
+server:
+  port: 8081

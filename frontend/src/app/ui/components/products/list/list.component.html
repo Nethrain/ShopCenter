@@ -1,0 +1,16 @@
+<div class="container mt-4">
+  <div class="row">
+
+    <h1 style="text-align: center; margin-bottom: 50px; margin-top: 30px;">ÜRÜNLER</h1>
+
+    <div class="col-md-4 mb-4" *ngFor="let product of products">
+      <div class="product-card">
+        <img src="https://girisimturkiye.com/wp-content/uploads/2016/12/wsi-imageoptim-urunu-piyasaya-surmek.jpg" alt="{{ product.nome }}">
+        <div class="product-details">
+          <h5 style="font-weight: bolder; font-size: 20px;">{{ product.nome }}</h5>
+          <p>Fiyat: {{ product.valor | currency: 'TRY' }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
