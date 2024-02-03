@@ -1,0 +1,2 @@
+# ShopCenter
+Eğitim amacıyla oluşturulmuştur.
